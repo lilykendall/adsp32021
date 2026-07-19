@@ -1,0 +1,17 @@
+# ADSP 31021 Assignment 2 — pinned for reproducibility (Python 3.9)
+# Core ML
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==1.26.4
+pyarrow==18.1.0
+
+# MLOps platform — experiment tracking
+mlflow==2.19.0
+
+# Feature store
+feast==0.40.1
+dask==2024.8.0
+
+# Visualisation
+matplotlib==3.9.4
+seaborn==0.13.2

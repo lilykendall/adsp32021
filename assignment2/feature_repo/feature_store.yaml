@@ -1,0 +1,12 @@
+project: crossfit_athletes
+# Local, dependency-free stores so the repo runs from a clean environment with
+# no external services. The offline store reads the parquet produced by
+# src/preprocess.py; the online store is a local SQLite file.
+provider: local
+registry: data/registry.db
+online_store:
+    type: sqlite
+    path: data/online_store.db
+offline_store:
+    type: file
+entity_key_serialization_version: 2
