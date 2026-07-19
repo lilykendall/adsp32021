@@ -1,5 +1,7 @@
 # ADSP 31021 — Assignment 2: Feature Store & Reproducible MLOps Pipeline
 
+**GitHub Repo Link:** https://github.com/lilykendall/adsp32021/tree/main/assignment2
+
 An end-to-end, reproducible machine-learning workflow over the CrossFit
 `athletes.csv` dataset. The pipeline integrates a **feature store (Feast)**,
 **experiment tracking (MLflow)**, **feature versioning**, and a **4-run
