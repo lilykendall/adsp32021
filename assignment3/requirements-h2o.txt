@@ -1,0 +1,9 @@
+# ADSP 31021 Assignment 3 — H2O AutoML environment (Python 3.11)
+# Install into .venv-h2o; see README.md for setup instructions.
+# Requires a local JDK 8-17 (Java 18+ breaks H2O's bundled log4j2/dnsjava on
+# macOS -- see README "Known issues"). Point H2O_JAVA_HOME at a compatible JDK.
+
+h2o==3.46.0.11
+pandas==2.1.4
+scikit-learn==1.4.2
+matplotlib==3.9.4

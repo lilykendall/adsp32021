@@ -1,0 +1,33 @@
+{
+  "platform": "PyCaret (MLflow backend)",
+  "features_mode": "top3",
+  "features": [
+    "weight",
+    "age",
+    "height"
+  ],
+  "n_candidate_models": 18,
+  "cv_folds": 5,
+  "random_seed": 42,
+  "setup_time_sec": 3.103142023086548,
+  "compare_models_time_sec": 34.420865058898926,
+  "best_model": "GradientBoostingRegressor",
+  "best_model_cv_leaderboard_row": {
+    "Model": "Gradient Boosting Regressor",
+    "MAE": 145.1685,
+    "MSE": 34844.8067,
+    "RMSE": 186.6511,
+    "R2": 0.545,
+    "RMSLE": 0.2164,
+    "MAPE": 0.2087,
+    "TT (Sec)": 0.208
+  },
+  "holdout_test": {
+    "rmse": 193.1546709187061,
+    "mae": 148.81444857731228,
+    "r2": 0.5290520438279456,
+    "scoring_time_sec": 0.22951292991638184,
+    "n_test_rows": 6038
+  },
+  "mlflow_experiment_name": "assignment3_pycaret_top3_features"
+}

@@ -1,0 +1,16 @@
+{
+  "model": "RandomForestRegressor (Assignment #1 Part A baseline, retimed)",
+  "features": [
+    "age",
+    "weight",
+    "height",
+    "gender_enc"
+  ],
+  "rmse": 178.99746037651414,
+  "mae": 137.5365550774972,
+  "r2": 0.595558023930485,
+  "fit_time_sec": 1.5869860649108887,
+  "predict_time_sec": 0.09490108489990234,
+  "n_train_rows": 24152,
+  "n_test_rows": 6038
+}

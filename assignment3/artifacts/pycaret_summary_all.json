@@ -1,0 +1,40 @@
+{
+  "platform": "PyCaret (MLflow backend)",
+  "features_mode": "all",
+  "features": [
+    "region",
+    "gender",
+    "age",
+    "height",
+    "weight",
+    "howlong",
+    "background",
+    "experience",
+    "schedule",
+    "eat"
+  ],
+  "n_candidate_models": 18,
+  "cv_folds": 5,
+  "random_seed": 42,
+  "setup_time_sec": 7.152503967285156,
+  "compare_models_time_sec": 122.87857699394226,
+  "best_model": "LGBMRegressor",
+  "best_model_cv_leaderboard_row": {
+    "Model": "Light Gradient Boosting Machine",
+    "MAE": 108.5072,
+    "MSE": 19769.5342,
+    "RMSE": 140.5851,
+    "R2": 0.7418,
+    "RMSLE": 0.1682,
+    "MAPE": 0.167,
+    "TT (Sec)": 0.698
+  },
+  "holdout_test": {
+    "rmse": 147.52612301055936,
+    "mae": 110.84059269625725,
+    "r2": 0.7252736315128939,
+    "scoring_time_sec": 0.3446648120880127,
+    "n_test_rows": 6038
+  },
+  "mlflow_experiment_name": "assignment3_pycaret_all_features"
+}

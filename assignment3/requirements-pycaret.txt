@@ -1,0 +1,17 @@
+# ADSP 31021 Assignment 3 — chosen-platform AutoML environment (Python 3.11)
+# Install into .venv-pycaret; see README.md for setup instructions.
+
+# AutoML platform (low-code)
+pycaret[analysis]==3.3.2
+
+# MLOps platform — experiment tracking backend for PyCaret's log_experiment="mlflow"
+# NOTE: pinned to 2.13.x. PyCaret 3.3.2's mlflow logger accesses
+# mlflow.tracking.fluent._active_run_stack as a plain list; mlflow >=2.16
+# changed this to a ThreadLocalVariable and breaks PyCaret's logger
+# (AttributeError: 'ThreadLocalVariable' object has no attribute 'copy').
+mlflow==2.13.2
+
+scikit-learn==1.4.2
+pandas==2.1.4
+numpy==1.26.4
+lightgbm==4.7.0

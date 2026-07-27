@@ -15,6 +15,7 @@ dataset** (`athletes.csv`), predicting `total_lift`
 |---|-------|-------------|--------|
 | 1 | Data Versioning | DVC, scikit-learn / XGBoost, Ruff | [`assignment1/`](assignment1/) |
 | 2 | Feature Store & Reproducible MLOps Pipeline | Feast (feature store), MLflow (experiment tracking), scikit-learn | [`assignment2/`](assignment2/) |
+| 3 | AutoML | PyCaret + MLflow (chosen platform), H2O AutoML (required repeat) | [`assignment3/`](assignment3/) |
 
 ### Assignment 1 — Data Versioning
 A Jupyter notebook that versions two dataset iterations (raw v1, processed v2)
@@ -28,12 +29,21 @@ of two feature versions × two RandomForest hyperparameter configurations, all
 reproducible from a clean environment.
 Full setup and results in [`assignment2/README.md`](assignment2/README.md).
 
+### Assignment 3 — AutoML
+Compares automated model selection against the Assignment 1 baseline using
+**PyCaret** (chosen MLOps platform, with **MLflow** as its experiment-tracking
+backend) and the required **H2O AutoML** repeat — leaderboards, feature
+importance, and speed/validation-score tradeoffs for both an all-features run
+and a reduced top-3-feature run.
+Full setup and results in [`assignment3/README.md`](assignment3/README.md).
+
 ## Repository layout
 
 ```
 adsp32021/
 ├── assignment1/    # Data versioning with DVC
-└── assignment2/    # Feature store + MLflow pipeline (see assignment2/README.md)
+├── assignment2/    # Feature store + MLflow pipeline (see assignment2/README.md)
+└── assignment3/    # AutoML: PyCaret+MLflow and H2O (see assignment3/README.md)
 ```
 
 Each assignment folder is self-contained with its own `requirements.txt` and

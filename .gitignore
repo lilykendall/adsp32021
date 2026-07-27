@@ -1,0 +1,11 @@
+# Zipped submission bundles — build artifacts, not source (some exceed GitHub's limits)
+*.zip
+
+# OS
+.DS_Store
+
+# Python envs
+.venv/
+.venv-*/
+__pycache__/
+*.pyc

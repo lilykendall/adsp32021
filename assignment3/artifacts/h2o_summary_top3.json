@@ -1,0 +1,33 @@
+{
+  "platform": "H2O AutoML",
+  "features_mode": "top3",
+  "features": [
+    "weight",
+    "age",
+    "height"
+  ],
+  "n_candidate_models": 17,
+  "cv_folds": 5,
+  "max_runtime_secs": 300,
+  "max_models": 20,
+  "random_seed": 42,
+  "automl_train_time_sec": 301.7263581752777,
+  "leader_model_id": "GBM_grid_1_AutoML_1_20260724_110441_model_1",
+  "leader_cv_leaderboard_row": {
+    "model_id": "GBM_grid_1_AutoML_1_20260724_110441_model_1",
+    "rmse": 186.562954246063,
+    "mse": 34805.7358970186,
+    "mae": 144.54348329352766,
+    "rmsle": 0.2159351352471785,
+    "mean_residual_deviance": 34805.7358970186,
+    "training_time_ms": 185,
+    "predict_time_per_row_ms": 0.00704
+  },
+  "holdout_test": {
+    "rmse": 191.3553750709613,
+    "mae": 147.22207916311055,
+    "r2": 0.5377852324817735,
+    "scoring_time_sec": 0.2277851104736328,
+    "n_test_rows": 6038
+  }
+}
