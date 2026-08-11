@@ -1,0 +1,14 @@
+# ADSP 31021 Assignment 4 — Model Monitoring (Python 3.11)
+# Install into .venv; see README.md for setup instructions.
+
+# Model monitoring / drift reporting
+# NOTE: pinned to the 0.4.x API (Report/TestSuite + ColumnMapping). Evidently
+# 0.7.x replaced this with a Dataset/DataDefinition API and removed
+# `evidently.report`, so the code in src/monitoring.py will not run on >=0.7.
+evidently==0.4.40
+
+scikit-learn==1.4.2
+pandas==2.1.4
+numpy==1.26.4
+matplotlib==3.8.4
+joblib==1.4.2

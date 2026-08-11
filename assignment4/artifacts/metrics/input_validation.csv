@@ -1,0 +1,5 @@
+dataset,gate_status,n_rows,n_rows_blocked,pct_rows_blocked,n_columns_impossible,columns_impossible,n_columns_ood,columns_ood_alerting
+original,PASS,610,0,0.0,0,,6,
+scenario_a,REJECT,610,191,31.31,1,medIncome,7,medIncome
+scenario_ab,REJECT,610,191,31.31,1,medIncome,8,medIncome;povertyPercent
+scenario_abc,REJECT,610,191,31.31,1,medIncome,9,medIncome;povertyPercent;AvgHouseholdSize

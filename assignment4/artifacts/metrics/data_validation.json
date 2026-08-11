@@ -1,0 +1,64 @@
+{
+  "n_rows": 3047,
+  "n_cols": 34,
+  "target": "TARGET_deathRate",
+  "dtypes": {
+    "avgAnnCount": "float64",
+    "avgDeathsPerYear": "int64",
+    "TARGET_deathRate": "float64",
+    "incidenceRate": "float64",
+    "medIncome": "int64",
+    "popEst2015": "int64",
+    "povertyPercent": "float64",
+    "studyPerCap": "float64",
+    "binnedInc": "object",
+    "MedianAge": "float64",
+    "MedianAgeMale": "float64",
+    "MedianAgeFemale": "float64",
+    "Geography": "object",
+    "AvgHouseholdSize": "float64",
+    "PercentMarried": "float64",
+    "PctNoHS18_24": "float64",
+    "PctHS18_24": "float64",
+    "PctSomeCol18_24": "float64",
+    "PctBachDeg18_24": "float64",
+    "PctHS25_Over": "float64",
+    "PctBachDeg25_Over": "float64",
+    "PctEmployed16_Over": "float64",
+    "PctUnemployed16_Over": "float64",
+    "PctPrivateCoverage": "float64",
+    "PctPrivateCoverageAlone": "float64",
+    "PctEmpPrivCoverage": "float64",
+    "PctPublicCoverage": "float64",
+    "PctPublicCoverageAlone": "float64",
+    "PctWhite": "float64",
+    "PctBlack": "float64",
+    "PctAsian": "float64",
+    "PctOtherRace": "float64",
+    "PctMarriedHouseholds": "float64",
+    "BirthRate": "float64"
+  },
+  "categorical_columns": [
+    "binnedInc",
+    "Geography"
+  ],
+  "missing_counts": {
+    "PctSomeCol18_24": 2285,
+    "PctPrivateCoverageAlone": 609,
+    "PctEmployed16_Over": 152
+  },
+  "missing_pct": {
+    "PctSomeCol18_24": 74.99,
+    "PctPrivateCoverageAlone": 19.99,
+    "PctEmployed16_Over": 4.99
+  },
+  "duplicate_rows": 0,
+  "constant_columns": [],
+  "invalid_values": {
+    "MedianAge_gt_100": 30,
+    "AvgHouseholdSize_lt_1": 61,
+    "negative_values": {},
+    "percent_columns_out_of_range": {},
+    "studyPerCap_zero_rows": 1931
+  }
+}

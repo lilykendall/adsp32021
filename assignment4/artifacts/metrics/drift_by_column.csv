@@ -1,0 +1,5 @@
+dataset,medIncome_drift,medIncome_score,povertyPercent_drift,povertyPercent_score,AvgHouseholdSize_drift,AvgHouseholdSize_score,n_drifted_columns
+original,False,1.0,False,1.0,False,1.0,0
+scenario_a,True,5.116808609011835e-278,False,1.0,False,1.0,2
+scenario_ab,True,5.116808609011835e-278,True,4.2558023492016235e-257,False,1.0,2
+scenario_abc,True,5.116808609011835e-278,True,4.2558023492016235e-257,True,0.0,4

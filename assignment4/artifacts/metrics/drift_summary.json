@@ -1,0 +1,773 @@
+{
+  "original": {
+    "drift": {
+      "n_drifted_columns": 0,
+      "share_drifted": 0.0,
+      "columns": {
+        "TARGET_deathRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "prediction": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "BirthRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAge": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeFemale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeMale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctAsian": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBlack": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmpPrivCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctMarriedHouseholds": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctNoHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctOtherRace": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPrivateCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverageAlone": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctUnemployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctWhite": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PercentMarried": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "avgAnnCount": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "incidenceRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "popEst2015": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "studyPerCap": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      },
+      "dataset_drift": false,
+      "watched": {
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      }
+    },
+    "tests": {
+      "summary": {
+        "all_passed": true,
+        "total_tests": 35,
+        "success_tests": 35,
+        "failed_tests": 0,
+        "by_status": {
+          "SUCCESS": 35
+        }
+      },
+      "failed": []
+    }
+  },
+  "scenario_a": {
+    "drift": {
+      "n_drifted_columns": 2,
+      "share_drifted": 0.06666666666666667,
+      "columns": {
+        "TARGET_deathRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "prediction": {
+          "stattest": "K-S p_value",
+          "drift_score": 2.427496305547361e-05,
+          "drift_detected": true
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "BirthRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAge": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeFemale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeMale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctAsian": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBlack": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmpPrivCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctMarriedHouseholds": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctNoHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctOtherRace": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPrivateCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverageAlone": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctUnemployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctWhite": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PercentMarried": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "avgAnnCount": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "incidenceRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 5.116808609011835e-278,
+          "drift_detected": true
+        },
+        "popEst2015": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "studyPerCap": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      },
+      "dataset_drift": false,
+      "watched": {
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 5.116808609011835e-278,
+          "drift_detected": true
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      }
+    },
+    "tests": {
+      "summary": {
+        "all_passed": false,
+        "total_tests": 35,
+        "success_tests": 32,
+        "failed_tests": 3,
+        "by_status": {
+          "SUCCESS": 32,
+          "FAIL": 3
+        }
+      },
+      "failed": [
+        "Drift per Column",
+        "Drift per Column",
+        "Mean Error (ME)"
+      ]
+    }
+  },
+  "scenario_ab": {
+    "drift": {
+      "n_drifted_columns": 2,
+      "share_drifted": 0.06666666666666667,
+      "columns": {
+        "TARGET_deathRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "prediction": {
+          "stattest": "K-S p_value",
+          "drift_score": 0.9991064094130235,
+          "drift_detected": false
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "BirthRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAge": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeFemale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeMale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctAsian": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBlack": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmpPrivCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctMarriedHouseholds": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctNoHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctOtherRace": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPrivateCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverageAlone": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctUnemployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctWhite": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PercentMarried": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "avgAnnCount": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "incidenceRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 5.116808609011835e-278,
+          "drift_detected": true
+        },
+        "popEst2015": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 4.2558023492016235e-257,
+          "drift_detected": true
+        },
+        "studyPerCap": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      },
+      "dataset_drift": false,
+      "watched": {
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 5.116808609011835e-278,
+          "drift_detected": true
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 4.2558023492016235e-257,
+          "drift_detected": true
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      }
+    },
+    "tests": {
+      "summary": {
+        "all_passed": false,
+        "total_tests": 35,
+        "success_tests": 33,
+        "failed_tests": 2,
+        "by_status": {
+          "SUCCESS": 33,
+          "FAIL": 2
+        }
+      },
+      "failed": [
+        "Drift per Column",
+        "Drift per Column"
+      ]
+    }
+  },
+  "scenario_abc": {
+    "drift": {
+      "n_drifted_columns": 4,
+      "share_drifted": 0.13333333333333333,
+      "columns": {
+        "TARGET_deathRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "prediction": {
+          "stattest": "K-S p_value",
+          "drift_score": 7.971825245892279e-29,
+          "drift_detected": true
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 0.0,
+          "drift_detected": true
+        },
+        "BirthRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAge": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeFemale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "MedianAgeMale": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctAsian": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBachDeg25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctBlack": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmpPrivCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctEmployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctHS25_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctMarriedHouseholds": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctNoHS18_24": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctOtherRace": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPrivateCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverage": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctPublicCoverageAlone": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctUnemployed16_Over": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PctWhite": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "PercentMarried": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "avgAnnCount": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "incidenceRate": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 5.116808609011835e-278,
+          "drift_detected": true
+        },
+        "popEst2015": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 4.2558023492016235e-257,
+          "drift_detected": true
+        },
+        "studyPerCap": {
+          "stattest": "K-S p_value",
+          "drift_score": 1.0,
+          "drift_detected": false
+        }
+      },
+      "dataset_drift": false,
+      "watched": {
+        "medIncome": {
+          "stattest": "K-S p_value",
+          "drift_score": 5.116808609011835e-278,
+          "drift_detected": true
+        },
+        "povertyPercent": {
+          "stattest": "K-S p_value",
+          "drift_score": 4.2558023492016235e-257,
+          "drift_detected": true
+        },
+        "AvgHouseholdSize": {
+          "stattest": "K-S p_value",
+          "drift_score": 0.0,
+          "drift_detected": true
+        }
+      }
+    },
+    "tests": {
+      "summary": {
+        "all_passed": false,
+        "total_tests": 35,
+        "success_tests": 27,
+        "failed_tests": 8,
+        "by_status": {
+          "SUCCESS": 27,
+          "FAIL": 8
+        }
+      },
+      "failed": [
+        "Drift per Column",
+        "Drift per Column",
+        "Drift per Column",
+        "Drift per Column",
+        "Mean Error (ME)",
+        "Mean Absolute Error (MAE)",
+        "Root Mean Square Error (RMSE)",
+        "Mean Absolute Percentage Error (MAPE)"
+      ]
+    }
+  }
+}

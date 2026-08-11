@@ -1,0 +1,114 @@
+{
+  "avgAnnCount": {
+    "min": 6.0,
+    "max": 24965.0
+  },
+  "incidenceRate": {
+    "min": 201.3,
+    "max": 1206.9
+  },
+  "medIncome": {
+    "min": 22640.0,
+    "max": 125635.0
+  },
+  "popEst2015": {
+    "min": 829.0,
+    "max": 5238216.0
+  },
+  "povertyPercent": {
+    "min": 3.2,
+    "max": 47.4
+  },
+  "studyPerCap": {
+    "min": 0.0,
+    "max": 9762.308998
+  },
+  "MedianAge": {
+    "min": 22.3,
+    "max": 65.3
+  },
+  "MedianAgeMale": {
+    "min": 22.4,
+    "max": 64.7
+  },
+  "MedianAgeFemale": {
+    "min": 22.3,
+    "max": 65.7
+  },
+  "AvgHouseholdSize": {
+    "min": 1.86,
+    "max": 3.97
+  },
+  "PercentMarried": {
+    "min": 23.1,
+    "max": 72.5
+  },
+  "PctNoHS18_24": {
+    "min": 0.0,
+    "max": 64.1
+  },
+  "PctHS18_24": {
+    "min": 0.0,
+    "max": 72.1
+  },
+  "PctBachDeg18_24": {
+    "min": 0.0,
+    "max": 51.8
+  },
+  "PctHS25_Over": {
+    "min": 7.5,
+    "max": 54.8
+  },
+  "PctBachDeg25_Over": {
+    "min": 2.7,
+    "max": 42.2
+  },
+  "PctEmployed16_Over": {
+    "min": 17.6,
+    "max": 80.1
+  },
+  "PctUnemployed16_Over": {
+    "min": 0.4,
+    "max": 29.4
+  },
+  "PctPrivateCoverage": {
+    "min": 22.3,
+    "max": 92.3
+  },
+  "PctEmpPrivCoverage": {
+    "min": 13.5,
+    "max": 70.7
+  },
+  "PctPublicCoverage": {
+    "min": 11.2,
+    "max": 65.1
+  },
+  "PctPublicCoverageAlone": {
+    "min": 2.6,
+    "max": 46.6
+  },
+  "PctWhite": {
+    "min": 10.1991551,
+    "max": 100.0
+  },
+  "PctBlack": {
+    "min": 0.0,
+    "max": 85.94779858
+  },
+  "PctAsian": {
+    "min": 0.0,
+    "max": 37.15693174
+  },
+  "PctOtherRace": {
+    "min": 0.0,
+    "max": 41.93025142
+  },
+  "PctMarriedHouseholds": {
+    "min": 22.99248989,
+    "max": 71.70305677
+  },
+  "BirthRate": {
+    "min": 0.0,
+    "max": 21.32616487
+  }
+}

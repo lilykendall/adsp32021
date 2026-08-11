@@ -1,0 +1,80 @@
+{
+  "scenario_a": {
+    "shifted": {
+      "medIncome": {
+        "expected_delta": -40000,
+        "observed_delta_min": -40000.0,
+        "observed_delta_max": -40000.0,
+        "ok": true,
+        "original_mean": 46989.37868852459,
+        "modified_mean": 6989.37868852459,
+        "modified_min": -15965.0,
+        "modified_max": 68477.0
+      }
+    },
+    "unchanged_columns_ok": true,
+    "row_count_ok": true
+  },
+  "scenario_ab": {
+    "shifted": {
+      "medIncome": {
+        "expected_delta": -40000,
+        "observed_delta_min": -40000.0,
+        "observed_delta_max": -40000.0,
+        "ok": true,
+        "original_mean": 46989.37868852459,
+        "modified_mean": 6989.37868852459,
+        "modified_min": -15965.0,
+        "modified_max": 68477.0
+      },
+      "povertyPercent": {
+        "expected_delta": 20.0,
+        "observed_delta_min": 19.999999999999996,
+        "observed_delta_max": 20.000000000000004,
+        "ok": true,
+        "original_mean": 17.02655737704918,
+        "modified_mean": 37.02655737704918,
+        "modified_min": 23.7,
+        "modified_max": 60.6
+      }
+    },
+    "unchanged_columns_ok": true,
+    "row_count_ok": true
+  },
+  "scenario_abc": {
+    "shifted": {
+      "medIncome": {
+        "expected_delta": -40000,
+        "observed_delta_min": -40000.0,
+        "observed_delta_max": -40000.0,
+        "ok": true,
+        "original_mean": 46989.37868852459,
+        "modified_mean": 6989.37868852459,
+        "modified_min": -15965.0,
+        "modified_max": 68477.0
+      },
+      "povertyPercent": {
+        "expected_delta": 20.0,
+        "observed_delta_min": 19.999999999999996,
+        "observed_delta_max": 20.000000000000004,
+        "ok": true,
+        "original_mean": 17.02655737704918,
+        "modified_mean": 37.02655737704918,
+        "modified_min": 23.7,
+        "modified_max": 60.6
+      },
+      "AvgHouseholdSize": {
+        "expected_delta": 2.0,
+        "observed_delta_min": 1.9999999999999996,
+        "observed_delta_max": 2.0000000000000004,
+        "ok": true,
+        "original_mean": 2.523852596314908,
+        "modified_mean": 4.523852596314907,
+        "modified_min": 3.91,
+        "modified_max": 5.970000000000001
+      }
+    },
+    "unchanged_columns_ok": true,
+    "row_count_ok": true
+  }
+}
